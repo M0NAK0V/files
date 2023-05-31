@@ -39,9 +39,9 @@
         }
         .gradient{
             
-            background: #8360c3;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #8360c3;
+            background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+            background: linear-gradient(to right, #2ebf91, #8360c3); 
 
         }
         .c1{
@@ -54,6 +54,14 @@
             /* -webkit-text-stroke: 2px white;  */
             color: white;
             padding: right;
+        }
+        .f{
+            font-family: 'Jost', sans-serif;
+        }
+        @media (min-width:1200px) {
+            .bottom{
+            padding-top: 400px;
+            }
         }
         @media (max-width:1100px) {
             .n{
@@ -90,14 +98,63 @@
   </div>
 </nav>
 <body>
-    <div class="p-3 mb-5 gradient">
+    <div class="p-3 gradient">
         <div class="row">
             <div class="container c1 col-xl-3">
                 <h1 class="display-1">ИСТОРИЯ</h1><p>
                 <h1 class="display-1">ОРГАНИЗАЦИИ</h1>
             </div>
-            <div class="container c2 col-xl-4 d-flex align-items-center text-end"><h4>Анимационная студия "Alt" была основана в 2015 год четырьмя молодыми и талантливыми людьми: Марисом, Андреем, Хусейном и Глебом. Каждый из них имел свой уникальный набор навыков, необходимых для успешной работы над анимационными проектами.</h4></div>
+            <div class="container c2 col-xl-4 d-flex align-items-center text-end"><h4>Анимационная студия "Alt" была основана в 2015 год
+                 четырьмя молодыми и талантливыми людьми: Марисом, Андреем, Хусейном и Глебом. Каждый из них имел свой уникальный набор
+                  навыков, необходимых для успешной работы над анимационными проектами.</h4></div>
+        </div>
+    </div>
+    <div class="p-3 mt-5 mb-5">
+        <div class="row">
+            <div class="container col-xl-2">
+                <img src="images/amogus.png" class="mx-auto d-block mb-5" p-7 alt="" width="200" >
+            </div>
+            <div class="container f align-items-center col-xl-7">
+                <h1 class="text-uppercase display-5">Марис</h1>
+                <p>
+                <h4 class="text-justify">был опытным сценаристом и имел большой опыт в написании сценариев для кино и телевидения.
+                    Он быстро стал главным автором сценариев в студии "Alt".</h4>
+                <p>
+                <h1 class="text-uppercase display-5">Андрей</h1>
+                <p>
+                <h4 class="text-justify">в свою очередь, был экспертом в работе со специализированными программами для создания анимационных персонажей.
+                    Он занимался моделированием, риггингом, анимацией и компьютерной графикой.</h4>
+                <p>
+                <h1 class="text-uppercase display-5">Хусейн</h1>
+                <p>
+                <h4 class="text-justify">который был дизайнером, создал множество уникальных и оригинальных идей для оформления оригинальных персонажей
+                    и декораций, которые были использованы в различных проектах.</h4>
+                <p>
+                <h1 class="text-uppercase display-5">Глеб</h1>
+                <p>
+                <h4 class="text-justify">в свою очередь, был экспертом в коммерческой части бизнеса. Он был ответственным за поиски клиентов,
+                    управление финансами и заработок на продаже готовых проектов.</h4>
+            </div>
+            <div class="container col-xl-2">
+                <img src="images/heart.png" class="mx-auto d-block bottom mt-5" alt="" width="230" >
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <div class="container mt-5 mb-5">
+            <h4 class="text-center mx-auto d-block f col-xl-7">Сегодня студия "Alt" продолжает работу в успешном режиме
+                 и уже успела завоевать популярность и уважение в мире анимации.</h4>
         </div>
     </div>
 </body>
+<footer class="bg-dark text-center text-white">
+    <div class="container">
+        <div class="row">
+            <div class="container">
+                <h4 class="text-center f mx-auto d-block">© Alt Studio Co.</h4>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
